@@ -7,7 +7,35 @@
 * You're free to add application-wide styles to this file and they'll appear at the top of the
 * compiled file, but it's generally better to create a new file per style scope.
 *
-*= require main
-*= require mobile
 *= require_self
+*= require bootstrap.min.css
+*= require carousel.css
+*= require bootstrap.vertical-tabs.css
+*= require jquery-ui.min.css
+*= require font-awesome.min.css
+*= require metisMenu.min.css
+*= require sb-admin-2.css
+*= require timeline.css
+*= require bootstrap-datepicker.css
+*= require prettify.css
+*= require sweetalert.css
+*= require estilo.css
+*= require tagit.ui-zendesk.css
+*= require jquery.tagit.css
+*= require style.css
+*= require bootstrap-select.min.css
+*= require jquery.edittable.css
+*= require sweetalert.css
+*= require jsgrid.css
+*= require jsgrid-theme.css
+*= require chosen.css
+*= require select2.css
 */
+
+.input-list .btn, .input-list .form-control {
+    border-radius: 0 !important;
+}
+
+.modal-backdrop {
+    z-index: -1 !important;
+}
